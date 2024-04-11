@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['firstoftactic_0',['FirstOfTactic',['../classAplib_1_1Core_1_1Tactics_1_1FirstOfTactic.html#a495fb0b7e7482ab58d590739dbd0cd56',1,'Aplib.Core.Tactics.FirstOfTactic.FirstOfTactic(List&lt; Tactic &gt; subTactics)'],['../classAplib_1_1Core_1_1Tactics_1_1FirstOfTactic.html#a0c68d6879e23fe72d32add2106809fff',1,'Aplib.Core.Tactics.FirstOfTactic.FirstOfTactic(List&lt; Tactic &gt; subTactics, Func&lt; bool &gt; guard)']]]
+  ['circulararray_0',['CircularArray',['../classAplib_1_1Core_1_1CircularArray.html#ae1c6bbf70f98d5e9403da8de150b39f8',1,'Aplib.Core.CircularArray.CircularArray(int size)'],['../classAplib_1_1Core_1_1CircularArray.html#a2c15b5be282d53d6552aa029ce6a72a0',1,'Aplib.Core.CircularArray.CircularArray(T[] array)']]]
 ];

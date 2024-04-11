@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['guard_0',['Guard',['../classAplib_1_1Core_1_1Action.html#a70fb1400eacaf8686373ab694824b038',1,'Aplib.Core.Action.Guard'],['../classAplib_1_1Core_1_1GuardedAction.html#af1179cdbe0325ca2f37b259183bd8338',1,'Aplib.Core.GuardedAction.Guard'],['../classAplib_1_1Core_1_1Tactics_1_1Tactic.html#a019b7677996408fbe3bb32d6ed6a82f9',1,'Aplib.Core.Tactics.Tactic.Guard']]]
+  ['description_0',['Description',['../classAplib_1_1Core_1_1Metadata.html#a0de6be6456e0f082a189ab2b8ad3c8b1',1,'Aplib::Core::Metadata']]],
+  ['distance_1',['Distance',['../classAplib_1_1Core_1_1Desire_1_1Goals_1_1Heuristics.html#af6166eb5687f746c749a88f898f05411',1,'Aplib::Core::Desire::Goals::Heuristics']]]
 ];

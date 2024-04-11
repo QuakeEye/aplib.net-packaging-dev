@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['storedguardresult_0',['StoredGuardResult',['../classAplib_1_1Core_1_1GuardedAction.html#a71c7f2d485363c82aff4afb4c08cd88c',1,'Aplib::Core::GuardedAction']]],
-  ['subtactics_1',['SubTactics',['../classAplib_1_1Core_1_1Tactics_1_1AnyOfTactic.html#a0d024cc9eb99b4bdc5a742d84fb04f1d',1,'Aplib::Core::Tactics::AnyOfTactic']]]
+  ['heuristicfunction_0',['HeuristicFunction',['../classAplib_1_1Core_1_1Desire_1_1Goals_1_1Goal.html#a77a56dc9112c09b174346fc4b5fb9947',1,'Aplib::Core::Desire::Goals::Goal']]],
+  ['heuristics_1',['Heuristics',['../classAplib_1_1Core_1_1Desire_1_1Goals_1_1Heuristics.html',1,'Aplib::Core::Desire::Goals']]],
+  ['heuristics_2ecs_2',['Heuristics.cs',['../Heuristics_8cs.html',1,'']]]
 ];

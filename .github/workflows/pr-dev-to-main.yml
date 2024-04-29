@@ -29,3 +29,5 @@ jobs:
           git checkout -b dev-${{ steps.previoustag.outputs.tag }}
           git push origin dev-${{ steps.previoustag.outputs.tag }}
           gh pr create --base main --head dev-${{ steps.previoustag.outputs.tag }} --title "Merge dev at version ${{ steps.previoustag.outputs.tag }} to main" --body "This PR merges the dev branch at version ${{ steps.previoustag.outputs.tag }} to the main branch."
+        env:
+          GH_TOKEN: ${{ github.token }}

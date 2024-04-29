@@ -27,4 +27,4 @@ jobs:
           git reset --hard origin/main
 
       - name: Push changes to dev branch
-        run: git push origin dev --force
+        run: git push origin dev

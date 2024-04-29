@@ -3,6 +3,7 @@ using Aplib.Core.Desire;
 using Aplib.Core.Desire.Goals;
 using Aplib.Core.Intent.Actions;
 using Aplib.Core.Intent.Tactics;
+using System;
 
 namespace Aplib.Core
 {
@@ -37,6 +38,7 @@ namespace Aplib.Core
         {
             _beliefSet = beliefSet;
             _desireSet = desireSet;
+            Console.WriteLine("Hello it is me, the thingamajig!");
         }
 
         /// <summary>

@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 
 namespace Aplib.Core.Belief
 {
@@ -26,6 +27,15 @@ namespace Aplib.Core.Belief
                 .Where(field => typeof(IBelief).IsAssignableFrom(field.FieldType))
                 .Select(field => (IBelief)field.GetValue(this))
                 .ToArray();
+
+            Console.WriteLine("Hello it is me, thingamajig number 2, I am way cooler than my father, the thingamajig, because I can print cool ascii art! Look:");
+            Console.WriteLine("  _______ _        _______           _______         ");
+            Console.WriteLine(" |__   __(_)      |__   __|         |__   __|        ");
+            Console.WriteLine("    | |   _  ___     | | __ _  ___     | | ___   ___ ");
+            Console.WriteLine("    | |  | |/ __|    | |/ _` |/ __|    | |/ _ \\ / _ ");
+            Console.WriteLine("    | |  | | (__     | | (_| | (__     | | (_) |  __/");
+            
+            Console.WriteLine("Editor's note: thingamajig is not so cool after all, didn't even finish the ascii art. Shame on you, thingamajig 2!");
         }
 
         /// <summary>

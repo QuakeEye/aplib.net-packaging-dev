@@ -28,3 +28,4 @@ jobs:
 
       - name: Push changes to dev branch
         run: git push origin dev --force
+

@@ -1,4 +1,4 @@
-name: Merge Dev to Main
+name: Create Pull Request from dev to main
 
 on:
   workflow_dispatch:

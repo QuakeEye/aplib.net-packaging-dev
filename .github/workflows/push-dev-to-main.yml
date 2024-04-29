@@ -6,13 +6,16 @@ on:
 jobs:
   merge:
     runs-on: ubuntu-latest
+    permissions:
+      actions: write-all
+      administration: write-all
+      contents: write-all
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Fetch all branches
         run: git fetch --all

@@ -7,9 +7,9 @@ jobs:
   merge:
     runs-on: ubuntu-latest
     permissions:
-      actions: write-all
-      administration: write-all
-      contents: write-all
+      actions: write
+      administration: write
+      contents: write
 
     steps:
       - name: Checkout repository
